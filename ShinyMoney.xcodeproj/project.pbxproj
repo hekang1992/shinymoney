@@ -1,0 +1,1292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E26015E12C8A415E63F8961 /* Pods_ShinyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E221D35D5041685BBFC928 /* Pods_ShinyMoney.framework */; };
+		920370CA2BCF5703001F839B /* SM_VertifyNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920370C92BCF5703001F839B /* SM_VertifyNavView.swift */; };
+		920370CD2BCF58D3001F839B /* SM_ProcessStep01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920370CC2BCF58D3001F839B /* SM_ProcessStep01ViewController.swift */; };
+		920370CF2BCFC214001F839B /* SM_ProcessStep02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920370CE2BCFC214001F839B /* SM_ProcessStep02ViewController.swift */; };
+		920370D12BCFC220001F839B /* SM_ProcessStep03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920370D02BCFC220001F839B /* SM_ProcessStep03ViewController.swift */; };
+		920370D32BCFC22D001F839B /* SM_ProcessStep04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920370D22BCFC22D001F839B /* SM_ProcessStep04ViewController.swift */; };
+		920370D52BD0AB00001F839B /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 920370D42BD0AB00001F839B /* SF-Pro-Display-BlackItalic.otf */; };
+		920B43532BE772B900A70C99 /* LuckyPesoChooseDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B43512BE772B900A70C99 /* LuckyPesoChooseDateView.m */; };
+		920B43562BE7730200A70C99 /* NSDate+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B43542BE7730200A70C99 /* NSDate+JKExtension.m */; };
+		920B43582BE77A0300A70C99 /* LuckyPesoChooseDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920B43572BE77A0300A70C99 /* LuckyPesoChooseDateView.xib */; };
+		920B435A2BE8B25200A70C99 /* SMHomeUploadDeviceInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B43592BE8B25200A70C99 /* SMHomeUploadDeviceInfoManager.swift */; };
+		920B435D2BE8B3D700A70C99 /* SMDeviceInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B435B2BE8B3D700A70C99 /* SMDeviceInfoTool.m */; };
+		920B43602BE8B46000A70C99 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B435E2BE8B46000A70C99 /* Reachability.m */; };
+		920D97422BFB1BA500462D90 /* SM_BillStyle01Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D97402BFB1BA500462D90 /* SM_BillStyle01Cell.swift */; };
+		920D97432BFB1BA500462D90 /* SM_BillStyle01Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920D97412BFB1BA500462D90 /* SM_BillStyle01Cell.xib */; };
+		920D97452BFB2B2E00462D90 /* SM_BillChooseTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D97442BFB2B2E00462D90 /* SM_BillChooseTypeListView.swift */; };
+		920D97492BFC6CB900462D90 /* SM_ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D97472BFC6CB800462D90 /* SM_ProductCell.swift */; };
+		920D974A2BFC6CB900462D90 /* SM_ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920D97482BFC6CB800462D90 /* SM_ProductCell.xib */; };
+		92297F792BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F772BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.swift */; };
+		92297F7A2BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92297F782BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.xib */; };
+		92297F7D2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F7B2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.swift */; };
+		92297F7E2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92297F7C2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.xib */; };
+		92297F802BDA46820041B3C2 /* SM_BindBankCardTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F7F2BDA46820041B3C2 /* SM_BindBankCardTipView.swift */; };
+		92297F822BDB32740041B3C2 /* SM_BankCardSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F812BDB32740041B3C2 /* SM_BankCardSelectView.swift */; };
+		92297F842BDB4CA10041B3C2 /* SM_SelectIDItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F832BDB4CA10041B3C2 /* SM_SelectIDItemView.swift */; };
+		92297F862BDB8A920041B3C2 /* SM_HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F852BDB8A920041B3C2 /* SM_HomeViewModel.swift */; };
+		92297F882BDB8E9B0041B3C2 /* SMHomeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F872BDB8E9B0041B3C2 /* SMHomeInfoModel.swift */; };
+		92297F8C2BDDF2270041B3C2 /* SMRouterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F8B2BDDF2270041B3C2 /* SMRouterUtils.swift */; };
+		92297F8E2BDDF9550041B3C2 /* SMApplyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F8D2BDDF9550041B3C2 /* SMApplyDataModel.swift */; };
+		92297F902BDE234F0041B3C2 /* SMProductDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F8F2BDE234E0041B3C2 /* SMProductDetailModel.swift */; };
+		92297F922BDE41020041B3C2 /* SMIDTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F912BDE41020041B3C2 /* SMIDTypeModel.swift */; };
+		92297F952BDF24AD0041B3C2 /* SMVertifyIdentifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F942BDF24AD0041B3C2 /* SMVertifyIdentifyManager.swift */; };
+		92297F972BDF39DF0041B3C2 /* SMRegAdvenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F962BDF39DF0041B3C2 /* SMRegAdvenceModel.swift */; };
+		92297F992BDF47220041B3C2 /* SMCardInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297F982BDF47220041B3C2 /* SMCardInfoModel.swift */; };
+		922ACD252BC3DE8600C43FD9 /* SM_Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922ACD242BC3DE8600C43FD9 /* SM_Tabbar.swift */; };
+		922ACD282BC3DECC00C43FD9 /* SM_HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922ACD272BC3DECC00C43FD9 /* SM_HomeVC.swift */; };
+		922ACD2A2BC3E32A00C43FD9 /* SM_ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922ACD292BC3E32A00C43FD9 /* SM_ContainerVC.swift */; };
+		922ACD2C2BC3E36C00C43FD9 /* SM_AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922ACD2B2BC3E36C00C43FD9 /* SM_AccountVC.swift */; };
+		922ACD2E2BC3E37D00C43FD9 /* SM_BillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922ACD2D2BC3E37D00C43FD9 /* SM_BillVC.swift */; };
+		92394BC22BC273AB00C92A22 /* SMImageTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92394BC12BC273AB00C92A22 /* SMImageTextButton.swift */; };
+		92394BCA2BC294E800C92A22 /* CodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92394BC62BC294E800C92A22 /* CodeInputView.m */; };
+		92394BCB2BC294E800C92A22 /* CALayer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 92394BC82BC294E800C92A22 /* CALayer+Category.m */; };
+		92394BCD2BC2976000C92A22 /* SM_LoginEnterCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92394BCC2BC2976000C92A22 /* SM_LoginEnterCodeView.swift */; };
+		9263B7872BD5E57E00F52C98 /* SM_ProcessStep05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263B7862BD5E57E00F52C98 /* SM_ProcessStep05ViewController.swift */; };
+		9263B7892BD63EA900F52C98 /* SM_ProcessContactFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263B7882BD63EA800F52C98 /* SM_ProcessContactFillView.swift */; };
+		9263B78B2BD6540300F52C98 /* SM_CardUploadExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263B78A2BD6540300F52C98 /* SM_CardUploadExampleView.swift */; };
+		9263B78D2BD660E100F52C98 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9263B78C2BD660E100F52C98 /* SF-Pro-Display-Black.otf */; };
+		9263B7942BD7581C00F52C98 /* SM_LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263B7932BD7581C00F52C98 /* SM_LoginViewModel.swift */; };
+		9263B7962BD7826100F52C98 /* SMUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263B7952BD7826100F52C98 /* SMUserModel.swift */; };
+		926B7B4A2BFD92AD007DBAB6 /* SM_HomeLoanAgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B7B492BFD92AD007DBAB6 /* SM_HomeLoanAgainViewController.swift */; };
+		926B7B4C2BFDB7E3007DBAB6 /* SMOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B7B4B2BFDB7E3007DBAB6 /* SMOrderModel.swift */; };
+		926B7B512BFF409E007DBAB6 /* CARefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B7B4F2BFF409E007DBAB6 /* CARefreshHeader.m */; };
+		926B7B542C06ADA3007DBAB6 /* SM_LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B7B522C06ADA3007DBAB6 /* SM_LaunchViewController.swift */; };
+		926B7B552C06ADA3007DBAB6 /* SM_LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926B7B532C06ADA3007DBAB6 /* SM_LaunchViewController.xib */; };
+		929E5F072BD7ABE2003FA011 /* SMAppdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F062BD7ABE2003FA011 /* SMAppdelegate.swift */; };
+		929E5F092BD7B456003FA011 /* SMEnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F082BD7B456003FA011 /* SMEnvironmentModel.swift */; };
+		929E5F0C2BD8A34F003FA011 /* SM_DataUploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F0B2BD8A34F003FA011 /* SM_DataUploadViewModel.swift */; };
+		929E5F0E2BD8AD26003FA011 /* SMGoogleUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F0D2BD8AD26003FA011 /* SMGoogleUploadModel.swift */; };
+		929E5F102BD8E9AB003FA011 /* SMCityLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F0F2BD8E9AB003FA011 /* SMCityLocationModel.swift */; };
+		929E5F122BD8F0DB003FA011 /* SMBottomSelectInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E5F112BD8F0DB003FA011 /* SMBottomSelectInfoView.swift */; };
+		92B755A72BC23E2300C1C08C /* SM_NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755A62BC23E2300C1C08C /* SM_NavigationViewController.swift */; };
+		92B755A92BC2404000C1C08C /* SM_Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755A82BC2404000C1C08C /* SM_Configure.swift */; };
+		92B755AC2BC241BE00C1C08C /* SM_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755AB2BC241BE00C1C08C /* SM_LoginVC.swift */; };
+		92B755B52BC245BB00C1C08C /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755AE2BC245BB00C1C08C /* UIViewControllerExt.swift */; };
+		92B755B62BC245BB00C1C08C /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755AF2BC245BB00C1C08C /* StringExt.swift */; };
+		92B755B72BC245BB00C1C08C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755B02BC245BB00C1C08C /* UIViewExt.swift */; };
+		92B755B82BC245BB00C1C08C /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755B12BC245BB00C1C08C /* UIButtonExt.swift */; };
+		92B755B92BC245BB00C1C08C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755B22BC245BB00C1C08C /* UIColorExt.swift */; };
+		92B755BA2BC245BB00C1C08C /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755B32BC245BB00C1C08C /* UITextFieldExt.swift */; };
+		92B755BD2BC2479900C1C08C /* SM_ShareFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B755BC2BC2479900C1C08C /* SM_ShareFunction.swift */; };
+		92C1DD052BDF833A00612484 /* SMNextStepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1DD042BDF833A00612484 /* SMNextStepManager.swift */; };
+		92C1DD072BDF89C500612484 /* SMStep02Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1DD062BDF89C500612484 /* SMStep02Model.swift */; };
+		92C1DD092BE083C700612484 /* SMStep04Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1DD082BE083C700612484 /* SMStep04Model.swift */; };
+		92C59DBF2BE7265E002A5BC7 /* SMStep05Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C59DBE2BE7265E002A5BC7 /* SMStep05Model.swift */; };
+		92C59DC52BE75C27002A5BC7 /* SMOrderUrlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C59DC42BE75C27002A5BC7 /* SMOrderUrlModel.swift */; };
+		92C59DCA2BE75F75002A5BC7 /* SMWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C59DC62BE75F74002A5BC7 /* SMWebVC.m */; };
+		92C59DCB2BE75F75002A5BC7 /* SMWebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C59DC72BE75F74002A5BC7 /* SMWebHandler.m */; };
+		92DB3A2E2BD10F64002260B6 /* SM_ProcessFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB3A2D2BD10F64002260B6 /* SM_ProcessFillView.swift */; };
+		92DCDEF02BEF030F00B35301 /* SM_AccountManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCDEEF2BEF030F00B35301 /* SM_AccountManagementViewController.swift */; };
+		92DCDEF32BEF0BFC00B35301 /* SM_AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCDEF22BEF0BFC00B35301 /* SM_AccountViewModel.swift */; };
+		92DCDEF52BF4381400B35301 /* SM_LoanProviderInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCDEF42BF4381400B35301 /* SM_LoanProviderInfoViewController.swift */; };
+		92EE08522BCA6D51007C93AE /* SM_AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE08502BCA6D51007C93AE /* SM_AccountCell.swift */; };
+		92EE08532BCA6D51007C93AE /* SM_AccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EE08512BCA6D51007C93AE /* SM_AccountCell.xib */; };
+		92EE08562BCBC816007C93AE /* SM_VertifyProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE08552BCBC816007C93AE /* SM_VertifyProcessViewController.swift */; };
+		92EE08582BCBCA07007C93AE /* Phosphate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 92EE08572BCBCA07007C93AE /* Phosphate.ttc */; };
+		92EE085A2BCBCCC3007C93AE /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92EE08592BCBCCC3007C93AE /* Silom.ttf */; };
+		92EE085E2BCCC75A007C93AE /* SMNetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE085C2BCCC759007C93AE /* SMNetAPI.swift */; };
+		92EE085F2BCCC75A007C93AE /* SMDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE085D2BCCC75A007C93AE /* SMDataModel.swift */; };
+		92EE08612BCCD25B007C93AE /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE08602BCCD25B007C93AE /* UIDeviceExt.swift */; };
+		92EE08632BCCD4CD007C93AE /* SMCustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE08622BCCD4CD007C93AE /* SMCustomActivityIndicatorView.swift */; };
+		92FEA8D62BB5385C0089976D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEA8D52BB5385C0089976D /* AppDelegate.swift */; };
+		92FEA8DA2BB5385C0089976D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEA8D92BB5385C0089976D /* ViewController.swift */; };
+		92FEA8DD2BB5385C0089976D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FEA8DB2BB5385C0089976D /* Main.storyboard */; };
+		92FEA8DF2BB5385F0089976D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FEA8DE2BB5385F0089976D /* Assets.xcassets */; };
+		92FEA8E22BB5385F0089976D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FEA8E02BB5385F0089976D /* LaunchScreen.storyboard */; };
+		92FEA8ED2BB5385F0089976D /* ShinyMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEA8EC2BB5385F0089976D /* ShinyMoneyTests.swift */; };
+		92FEA8F72BB5385F0089976D /* ShinyMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEA8F62BB5385F0089976D /* ShinyMoneyUITests.swift */; };
+		92FEA8F92BB5385F0089976D /* ShinyMoneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEA8F82BB5385F0089976D /* ShinyMoneyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FEA8E92BB5385F0089976D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FEA8CA2BB5385C0089976D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FEA8D12BB5385C0089976D;
+			remoteInfo = ShinyMoney;
+		};
+		92FEA8F32BB5385F0089976D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FEA8CA2BB5385C0089976D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FEA8D12BB5385C0089976D;
+			remoteInfo = ShinyMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E05691CC92D89C21FCC5F36 /* Pods-ShinyMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyMoney.release.xcconfig"; path = "Target Support Files/Pods-ShinyMoney/Pods-ShinyMoney.release.xcconfig"; sourceTree = "<group>"; };
+		22DC49D339DB05475E4297D8 /* Pods-ShinyMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyMoney.debug.xcconfig"; path = "Target Support Files/Pods-ShinyMoney/Pods-ShinyMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		920370C92BCF5703001F839B /* SM_VertifyNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_VertifyNavView.swift; sourceTree = "<group>"; };
+		920370CC2BCF58D3001F839B /* SM_ProcessStep01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessStep01ViewController.swift; sourceTree = "<group>"; };
+		920370CE2BCFC214001F839B /* SM_ProcessStep02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessStep02ViewController.swift; sourceTree = "<group>"; };
+		920370D02BCFC220001F839B /* SM_ProcessStep03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessStep03ViewController.swift; sourceTree = "<group>"; };
+		920370D22BCFC22D001F839B /* SM_ProcessStep04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessStep04ViewController.swift; sourceTree = "<group>"; };
+		920370D42BD0AB00001F839B /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		920B43512BE772B900A70C99 /* LuckyPesoChooseDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyPesoChooseDateView.m; sourceTree = "<group>"; };
+		920B43522BE772B900A70C99 /* LuckyPesoChooseDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyPesoChooseDateView.h; sourceTree = "<group>"; };
+		920B43542BE7730200A70C99 /* NSDate+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKExtension.m"; sourceTree = "<group>"; };
+		920B43552BE7730200A70C99 /* NSDate+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKExtension.h"; sourceTree = "<group>"; };
+		920B43572BE77A0300A70C99 /* LuckyPesoChooseDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LuckyPesoChooseDateView.xib; sourceTree = "<group>"; };
+		920B43592BE8B25200A70C99 /* SMHomeUploadDeviceInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMHomeUploadDeviceInfoManager.swift; sourceTree = "<group>"; };
+		920B435B2BE8B3D700A70C99 /* SMDeviceInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMDeviceInfoTool.m; sourceTree = "<group>"; };
+		920B435C2BE8B3D700A70C99 /* SMDeviceInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDeviceInfoTool.h; sourceTree = "<group>"; };
+		920B435E2BE8B46000A70C99 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		920B435F2BE8B46000A70C99 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		920B43612BE8C02A00A70C99 /* ShinyMoney.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShinyMoney.entitlements; sourceTree = "<group>"; };
+		920D97402BFB1BA500462D90 /* SM_BillStyle01Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BillStyle01Cell.swift; sourceTree = "<group>"; };
+		920D97412BFB1BA500462D90 /* SM_BillStyle01Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_BillStyle01Cell.xib; sourceTree = "<group>"; };
+		920D97442BFB2B2E00462D90 /* SM_BillChooseTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BillChooseTypeListView.swift; sourceTree = "<group>"; };
+		920D97472BFC6CB800462D90 /* SM_ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProductCell.swift; sourceTree = "<group>"; };
+		920D97482BFC6CB800462D90 /* SM_ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_ProductCell.xib; sourceTree = "<group>"; };
+		92297F772BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BottomSelectInfoViewCell.swift; sourceTree = "<group>"; };
+		92297F782BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_BottomSelectInfoViewCell.xib; sourceTree = "<group>"; };
+		92297F7B2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BottomSelectInfoViewCell01.swift; sourceTree = "<group>"; };
+		92297F7C2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_BottomSelectInfoViewCell01.xib; sourceTree = "<group>"; };
+		92297F7F2BDA46820041B3C2 /* SM_BindBankCardTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BindBankCardTipView.swift; sourceTree = "<group>"; };
+		92297F812BDB32740041B3C2 /* SM_BankCardSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BankCardSelectView.swift; sourceTree = "<group>"; };
+		92297F832BDB4CA10041B3C2 /* SM_SelectIDItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_SelectIDItemView.swift; sourceTree = "<group>"; };
+		92297F852BDB8A920041B3C2 /* SM_HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_HomeViewModel.swift; sourceTree = "<group>"; };
+		92297F872BDB8E9B0041B3C2 /* SMHomeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMHomeInfoModel.swift; sourceTree = "<group>"; };
+		92297F8B2BDDF2270041B3C2 /* SMRouterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMRouterUtils.swift; sourceTree = "<group>"; };
+		92297F8D2BDDF9550041B3C2 /* SMApplyDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMApplyDataModel.swift; sourceTree = "<group>"; };
+		92297F8F2BDE234E0041B3C2 /* SMProductDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMProductDetailModel.swift; sourceTree = "<group>"; };
+		92297F912BDE41020041B3C2 /* SMIDTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMIDTypeModel.swift; sourceTree = "<group>"; };
+		92297F942BDF24AD0041B3C2 /* SMVertifyIdentifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMVertifyIdentifyManager.swift; sourceTree = "<group>"; };
+		92297F962BDF39DF0041B3C2 /* SMRegAdvenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMRegAdvenceModel.swift; sourceTree = "<group>"; };
+		92297F982BDF47220041B3C2 /* SMCardInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCardInfoModel.swift; sourceTree = "<group>"; };
+		922ACD242BC3DE8600C43FD9 /* SM_Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_Tabbar.swift; sourceTree = "<group>"; };
+		922ACD272BC3DECC00C43FD9 /* SM_HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_HomeVC.swift; sourceTree = "<group>"; };
+		922ACD292BC3E32A00C43FD9 /* SM_ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ContainerVC.swift; sourceTree = "<group>"; };
+		922ACD2B2BC3E36C00C43FD9 /* SM_AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_AccountVC.swift; sourceTree = "<group>"; };
+		922ACD2D2BC3E37D00C43FD9 /* SM_BillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_BillVC.swift; sourceTree = "<group>"; };
+		92394BC12BC273AB00C92A22 /* SMImageTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMImageTextButton.swift; sourceTree = "<group>"; };
+		92394BC32BC278E200C92A22 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		92394BC52BC294E800C92A22 /* ShinyMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShinyMoney-Bridging-Header.h"; sourceTree = "<group>"; };
+		92394BC62BC294E800C92A22 /* CodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeInputView.m; sourceTree = "<group>"; };
+		92394BC72BC294E800C92A22 /* CALayer+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Category.h"; sourceTree = "<group>"; };
+		92394BC82BC294E800C92A22 /* CALayer+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Category.m"; sourceTree = "<group>"; };
+		92394BC92BC294E800C92A22 /* CodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeInputView.h; sourceTree = "<group>"; };
+		92394BCC2BC2976000C92A22 /* SM_LoginEnterCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_LoginEnterCodeView.swift; sourceTree = "<group>"; };
+		9263B7862BD5E57E00F52C98 /* SM_ProcessStep05ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessStep05ViewController.swift; sourceTree = "<group>"; };
+		9263B7882BD63EA800F52C98 /* SM_ProcessContactFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessContactFillView.swift; sourceTree = "<group>"; };
+		9263B78A2BD6540300F52C98 /* SM_CardUploadExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_CardUploadExampleView.swift; sourceTree = "<group>"; };
+		9263B78C2BD660E100F52C98 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		9263B7932BD7581C00F52C98 /* SM_LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_LoginViewModel.swift; sourceTree = "<group>"; };
+		9263B7952BD7826100F52C98 /* SMUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMUserModel.swift; sourceTree = "<group>"; };
+		926B7B492BFD92AD007DBAB6 /* SM_HomeLoanAgainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_HomeLoanAgainViewController.swift; sourceTree = "<group>"; };
+		926B7B4B2BFDB7E3007DBAB6 /* SMOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMOrderModel.swift; sourceTree = "<group>"; };
+		926B7B4F2BFF409E007DBAB6 /* CARefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARefreshHeader.m; sourceTree = "<group>"; };
+		926B7B502BFF409E007DBAB6 /* CARefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARefreshHeader.h; sourceTree = "<group>"; };
+		926B7B522C06ADA3007DBAB6 /* SM_LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_LaunchViewController.swift; sourceTree = "<group>"; };
+		926B7B532C06ADA3007DBAB6 /* SM_LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_LaunchViewController.xib; sourceTree = "<group>"; };
+		929E5F062BD7ABE2003FA011 /* SMAppdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMAppdelegate.swift; sourceTree = "<group>"; };
+		929E5F082BD7B456003FA011 /* SMEnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMEnvironmentModel.swift; sourceTree = "<group>"; };
+		929E5F0B2BD8A34F003FA011 /* SM_DataUploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_DataUploadViewModel.swift; sourceTree = "<group>"; };
+		929E5F0D2BD8AD26003FA011 /* SMGoogleUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMGoogleUploadModel.swift; sourceTree = "<group>"; };
+		929E5F0F2BD8E9AB003FA011 /* SMCityLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCityLocationModel.swift; sourceTree = "<group>"; };
+		929E5F112BD8F0DB003FA011 /* SMBottomSelectInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBottomSelectInfoView.swift; sourceTree = "<group>"; };
+		92B755A62BC23E2300C1C08C /* SM_NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_NavigationViewController.swift; sourceTree = "<group>"; };
+		92B755A82BC2404000C1C08C /* SM_Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_Configure.swift; sourceTree = "<group>"; };
+		92B755AB2BC241BE00C1C08C /* SM_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_LoginVC.swift; sourceTree = "<group>"; };
+		92B755AE2BC245BB00C1C08C /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		92B755AF2BC245BB00C1C08C /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		92B755B02BC245BB00C1C08C /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		92B755B12BC245BB00C1C08C /* UIButtonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		92B755B22BC245BB00C1C08C /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		92B755B32BC245BB00C1C08C /* UITextFieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		92B755BC2BC2479900C1C08C /* SM_ShareFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ShareFunction.swift; sourceTree = "<group>"; };
+		92C1DD042BDF833A00612484 /* SMNextStepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMNextStepManager.swift; sourceTree = "<group>"; };
+		92C1DD062BDF89C500612484 /* SMStep02Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMStep02Model.swift; sourceTree = "<group>"; };
+		92C1DD082BE083C700612484 /* SMStep04Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMStep04Model.swift; sourceTree = "<group>"; };
+		92C59DBE2BE7265E002A5BC7 /* SMStep05Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMStep05Model.swift; sourceTree = "<group>"; };
+		92C59DC42BE75C27002A5BC7 /* SMOrderUrlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMOrderUrlModel.swift; sourceTree = "<group>"; };
+		92C59DC62BE75F74002A5BC7 /* SMWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWebVC.m; sourceTree = "<group>"; };
+		92C59DC72BE75F74002A5BC7 /* SMWebHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWebHandler.m; sourceTree = "<group>"; };
+		92C59DC82BE75F74002A5BC7 /* SMWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWebVC.h; sourceTree = "<group>"; };
+		92C59DC92BE75F74002A5BC7 /* SMWebHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWebHandler.h; sourceTree = "<group>"; };
+		92DB3A2D2BD10F64002260B6 /* SM_ProcessFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ProcessFillView.swift; sourceTree = "<group>"; };
+		92DCDEEF2BEF030F00B35301 /* SM_AccountManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_AccountManagementViewController.swift; sourceTree = "<group>"; };
+		92DCDEF22BEF0BFC00B35301 /* SM_AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_AccountViewModel.swift; sourceTree = "<group>"; };
+		92DCDEF42BF4381400B35301 /* SM_LoanProviderInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_LoanProviderInfoViewController.swift; sourceTree = "<group>"; };
+		92EE08502BCA6D51007C93AE /* SM_AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_AccountCell.swift; sourceTree = "<group>"; };
+		92EE08512BCA6D51007C93AE /* SM_AccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SM_AccountCell.xib; sourceTree = "<group>"; };
+		92EE08552BCBC816007C93AE /* SM_VertifyProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_VertifyProcessViewController.swift; sourceTree = "<group>"; };
+		92EE08572BCBCA07007C93AE /* Phosphate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphate.ttc; sourceTree = "<group>"; };
+		92EE08592BCBCCC3007C93AE /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		92EE085C2BCCC759007C93AE /* SMNetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetAPI.swift; sourceTree = "<group>"; };
+		92EE085D2BCCC75A007C93AE /* SMDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDataModel.swift; sourceTree = "<group>"; };
+		92EE08602BCCD25B007C93AE /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
+		92EE08622BCCD4CD007C93AE /* SMCustomActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCustomActivityIndicatorView.swift; sourceTree = "<group>"; };
+		92FEA8D22BB5385C0089976D /* ShinyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FEA8D52BB5385C0089976D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92FEA8D92BB5385C0089976D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92FEA8DC2BB5385C0089976D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FEA8DE2BB5385F0089976D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FEA8E12BB5385F0089976D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92FEA8E32BB5385F0089976D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FEA8E82BB5385F0089976D /* ShinyMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinyMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FEA8EC2BB5385F0089976D /* ShinyMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyMoneyTests.swift; sourceTree = "<group>"; };
+		92FEA8F22BB5385F0089976D /* ShinyMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinyMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FEA8F62BB5385F0089976D /* ShinyMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyMoneyUITests.swift; sourceTree = "<group>"; };
+		92FEA8F82BB5385F0089976D /* ShinyMoneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyMoneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4E221D35D5041685BBFC928 /* Pods_ShinyMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinyMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FEA8CF2BB5385C0089976D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26015E12C8A415E63F8961 /* Pods_ShinyMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8E52BB5385F0089976D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8EF2BB5385F0089976D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A71898B62FD4C8E380697C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E221D35D5041685BBFC928 /* Pods_ShinyMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920370C82BCF56CE001F839B /* VertifyProcess */ = {
+			isa = PBXGroup;
+			children = (
+				920370C92BCF5703001F839B /* SM_VertifyNavView.swift */,
+				9263B78A2BD6540300F52C98 /* SM_CardUploadExampleView.swift */,
+				92DB3A2D2BD10F64002260B6 /* SM_ProcessFillView.swift */,
+				9263B7882BD63EA800F52C98 /* SM_ProcessContactFillView.swift */,
+				92297F7F2BDA46820041B3C2 /* SM_BindBankCardTipView.swift */,
+				92297F812BDB32740041B3C2 /* SM_BankCardSelectView.swift */,
+				929E5F112BD8F0DB003FA011 /* SMBottomSelectInfoView.swift */,
+				92297F772BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.swift */,
+				92297F782BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.xib */,
+				92297F7B2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.swift */,
+				92297F7C2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.xib */,
+				92297F832BDB4CA10041B3C2 /* SM_SelectIDItemView.swift */,
+				920B43522BE772B900A70C99 /* LuckyPesoChooseDateView.h */,
+				920B43512BE772B900A70C99 /* LuckyPesoChooseDateView.m */,
+				920B43572BE77A0300A70C99 /* LuckyPesoChooseDateView.xib */,
+			);
+			path = VertifyProcess;
+			sourceTree = "<group>";
+		};
+		920370CB2BCF58B5001F839B /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				920370CC2BCF58D3001F839B /* SM_ProcessStep01ViewController.swift */,
+				920370CE2BCFC214001F839B /* SM_ProcessStep02ViewController.swift */,
+				920370D02BCFC220001F839B /* SM_ProcessStep03ViewController.swift */,
+				920370D22BCFC22D001F839B /* SM_ProcessStep04ViewController.swift */,
+				9263B7862BD5E57E00F52C98 /* SM_ProcessStep05ViewController.swift */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		920D973F2BFB1B1D00462D90 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				920D97402BFB1BA500462D90 /* SM_BillStyle01Cell.swift */,
+				920D97412BFB1BA500462D90 /* SM_BillStyle01Cell.xib */,
+				920D97442BFB2B2E00462D90 /* SM_BillChooseTypeListView.swift */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		920D97462BFC6CA000462D90 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				920D97472BFC6CB800462D90 /* SM_ProductCell.swift */,
+				920D97482BFC6CB800462D90 /* SM_ProductCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92297F892BDDE16A0041B3C2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92297F852BDB8A920041B3C2 /* SM_HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92297F8A2BDDF2020041B3C2 /* SMRouter */ = {
+			isa = PBXGroup;
+			children = (
+				926B7B502BFF409E007DBAB6 /* CARefreshHeader.h */,
+				926B7B4F2BFF409E007DBAB6 /* CARefreshHeader.m */,
+				92297F8B2BDDF2270041B3C2 /* SMRouterUtils.swift */,
+				92C59DC92BE75F74002A5BC7 /* SMWebHandler.h */,
+				92C59DC72BE75F74002A5BC7 /* SMWebHandler.m */,
+				92C59DC82BE75F74002A5BC7 /* SMWebVC.h */,
+				92C59DC62BE75F74002A5BC7 /* SMWebVC.m */,
+			);
+			path = SMRouter;
+			sourceTree = "<group>";
+		};
+		92297F932BDF247B0041B3C2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				92297F942BDF24AD0041B3C2 /* SMVertifyIdentifyManager.swift */,
+				92C1DD042BDF833A00612484 /* SMNextStepManager.swift */,
+				920B43592BE8B25200A70C99 /* SMHomeUploadDeviceInfoManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		922ACD232BC3DDD700C43FD9 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				922ACD242BC3DE8600C43FD9 /* SM_Tabbar.swift */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		922ACD262BC3DEB200C43FD9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				920370CB2BCF58B5001F839B /* Process */,
+				922ACD292BC3E32A00C43FD9 /* SM_ContainerVC.swift */,
+				922ACD272BC3DECC00C43FD9 /* SM_HomeVC.swift */,
+				922ACD2D2BC3E37D00C43FD9 /* SM_BillVC.swift */,
+				92EE08552BCBC816007C93AE /* SM_VertifyProcessViewController.swift */,
+				926B7B492BFD92AD007DBAB6 /* SM_HomeLoanAgainViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92394BC42BC294C400C92A22 /* LoginCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				92394BC72BC294E800C92A22 /* CALayer+Category.h */,
+				92394BC82BC294E800C92A22 /* CALayer+Category.m */,
+				92394BC92BC294E800C92A22 /* CodeInputView.h */,
+				92394BC62BC294E800C92A22 /* CodeInputView.m */,
+				92394BC52BC294E800C92A22 /* ShinyMoney-Bridging-Header.h */,
+				92394BCC2BC2976000C92A22 /* SM_LoginEnterCodeView.swift */,
+			);
+			path = LoginCodeView;
+			sourceTree = "<group>";
+		};
+		9263B78E2BD757AD00F52C98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92DCDEF12BEF0BDF00B35301 /* Account */,
+				92297F892BDDE16A0041B3C2 /* Home */,
+				9263B78F2BD757C600F52C98 /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9263B78F2BD757C600F52C98 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9263B7932BD7581C00F52C98 /* SM_LoginViewModel.swift */,
+				929E5F0B2BD8A34F003FA011 /* SM_DataUploadViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		92B755A12BC23D2600C1C08C /*  Custom */ = {
+			isa = PBXGroup;
+			children = (
+				92394BC12BC273AB00C92A22 /* SMImageTextButton.swift */,
+				92B755A62BC23E2300C1C08C /* SM_NavigationViewController.swift */,
+				92B755A82BC2404000C1C08C /* SM_Configure.swift */,
+				92B755BC2BC2479900C1C08C /* SM_ShareFunction.swift */,
+				920B435C2BE8B3D700A70C99 /* SMDeviceInfoTool.h */,
+				920B435B2BE8B3D700A70C99 /* SMDeviceInfoTool.m */,
+				920B435F2BE8B46000A70C99 /* Reachability.h */,
+				920B435E2BE8B46000A70C99 /* Reachability.m */,
+			);
+			path = " Custom";
+			sourceTree = "<group>";
+		};
+		92B755A22BC23D3100C1C08C /* ShareClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShareClass;
+			sourceTree = "<group>";
+		};
+		92B755A32BC23D4700C1C08C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92DCDEEE2BEF02BC00B35301 /* Account */,
+				922ACD262BC3DEB200C43FD9 /* Home */,
+				92B755AA2BC2419A00C1C08C /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92B755A42BC23D5E00C1C08C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9263B7952BD7826100F52C98 /* SMUserModel.swift */,
+				929E5F082BD7B456003FA011 /* SMEnvironmentModel.swift */,
+				929E5F0D2BD8AD26003FA011 /* SMGoogleUploadModel.swift */,
+				929E5F0F2BD8E9AB003FA011 /* SMCityLocationModel.swift */,
+				92297F872BDB8E9B0041B3C2 /* SMHomeInfoModel.swift */,
+				92297F8D2BDDF9550041B3C2 /* SMApplyDataModel.swift */,
+				92297F8F2BDE234E0041B3C2 /* SMProductDetailModel.swift */,
+				92297F912BDE41020041B3C2 /* SMIDTypeModel.swift */,
+				92297F962BDF39DF0041B3C2 /* SMRegAdvenceModel.swift */,
+				92297F982BDF47220041B3C2 /* SMCardInfoModel.swift */,
+				92C1DD062BDF89C500612484 /* SMStep02Model.swift */,
+				92C1DD082BE083C700612484 /* SMStep04Model.swift */,
+				92C59DBE2BE7265E002A5BC7 /* SMStep05Model.swift */,
+				92C59DC42BE75C27002A5BC7 /* SMOrderUrlModel.swift */,
+				926B7B4B2BFDB7E3007DBAB6 /* SMOrderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92B755A52BC23D6600C1C08C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				920D97462BFC6CA000462D90 /* Home */,
+				920D973F2BFB1B1D00462D90 /* Bill */,
+				920370C82BCF56CE001F839B /* VertifyProcess */,
+				92EE084F2BCA6D2B007C93AE /* Account */,
+				92394BC42BC294C400C92A22 /* LoginCodeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92B755AA2BC2419A00C1C08C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				92B755AB2BC241BE00C1C08C /* SM_LoginVC.swift */,
+				926B7B522C06ADA3007DBAB6 /* SM_LaunchViewController.swift */,
+				926B7B532C06ADA3007DBAB6 /* SM_LaunchViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		92B755AD2BC2459C00C1C08C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				92B755AF2BC245BB00C1C08C /* StringExt.swift */,
+				92B755B12BC245BB00C1C08C /* UIButtonExt.swift */,
+				92B755B22BC245BB00C1C08C /* UIColorExt.swift */,
+				92B755B32BC245BB00C1C08C /* UITextFieldExt.swift */,
+				92B755AE2BC245BB00C1C08C /* UIViewControllerExt.swift */,
+				92B755B02BC245BB00C1C08C /* UIViewExt.swift */,
+				92EE08602BCCD25B007C93AE /* UIDeviceExt.swift */,
+				920B43552BE7730200A70C99 /* NSDate+JKExtension.h */,
+				920B43542BE7730200A70C99 /* NSDate+JKExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		92DCDEEE2BEF02BC00B35301 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				922ACD2B2BC3E36C00C43FD9 /* SM_AccountVC.swift */,
+				92DCDEEF2BEF030F00B35301 /* SM_AccountManagementViewController.swift */,
+				92DCDEF42BF4381400B35301 /* SM_LoanProviderInfoViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		92DCDEF12BEF0BDF00B35301 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				92DCDEF22BEF0BFC00B35301 /* SM_AccountViewModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		92EE084F2BCA6D2B007C93AE /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				92EE08502BCA6D51007C93AE /* SM_AccountCell.swift */,
+				92EE08512BCA6D51007C93AE /* SM_AccountCell.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		92EE08542BCBC191007C93AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92EE08572BCBCA07007C93AE /* Phosphate.ttc */,
+				920370D42BD0AB00001F839B /* SF-Pro-Display-BlackItalic.otf */,
+				92EE08592BCBCCC3007C93AE /* Silom.ttf */,
+				9263B78C2BD660E100F52C98 /* SF-Pro-Display-Black.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92EE085B2BCCC62B007C93AE /* NetworkModule */ = {
+			isa = PBXGroup;
+			children = (
+				92EE085D2BCCC75A007C93AE /* SMDataModel.swift */,
+				92EE085C2BCCC759007C93AE /* SMNetAPI.swift */,
+				92EE08622BCCD4CD007C93AE /* SMCustomActivityIndicatorView.swift */,
+			);
+			path = NetworkModule;
+			sourceTree = "<group>";
+		};
+		92FEA8C92BB5385C0089976D = {
+			isa = PBXGroup;
+			children = (
+				92FEA8D42BB5385C0089976D /* ShinyMoney */,
+				92FEA8EB2BB5385F0089976D /* ShinyMoneyTests */,
+				92FEA8F52BB5385F0089976D /* ShinyMoneyUITests */,
+				92FEA8D32BB5385C0089976D /* Products */,
+				A998FED6E29496A1ADD366B1 /* Pods */,
+				2A71898B62FD4C8E380697C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92FEA8D32BB5385C0089976D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FEA8D22BB5385C0089976D /* ShinyMoney.app */,
+				92FEA8E82BB5385F0089976D /* ShinyMoneyTests.xctest */,
+				92FEA8F22BB5385F0089976D /* ShinyMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FEA8D42BB5385C0089976D /* ShinyMoney */ = {
+			isa = PBXGroup;
+			children = (
+				920B43612BE8C02A00A70C99 /* ShinyMoney.entitlements */,
+				92297F932BDF247B0041B3C2 /* Manager */,
+				92297F8A2BDDF2020041B3C2 /* SMRouter */,
+				9263B78E2BD757AD00F52C98 /* ViewModel */,
+				92EE085B2BCCC62B007C93AE /* NetworkModule */,
+				92EE08542BCBC191007C93AE /* Resources */,
+				922ACD232BC3DDD700C43FD9 /* CustomTabbar */,
+				92B755AD2BC2459C00C1C08C /* Category */,
+				92B755A52BC23D6600C1C08C /* Views */,
+				92B755A42BC23D5E00C1C08C /* Models */,
+				92B755A32BC23D4700C1C08C /* ViewControllers */,
+				92B755A22BC23D3100C1C08C /* ShareClass */,
+				92B755A12BC23D2600C1C08C /*  Custom */,
+				92FEA8D52BB5385C0089976D /* AppDelegate.swift */,
+				929E5F062BD7ABE2003FA011 /* SMAppdelegate.swift */,
+				92FEA8D92BB5385C0089976D /* ViewController.swift */,
+				92FEA8DB2BB5385C0089976D /* Main.storyboard */,
+				92394BC32BC278E200C92A22 /* PrefixHeader.pch */,
+				92FEA8DE2BB5385F0089976D /* Assets.xcassets */,
+				92FEA8E02BB5385F0089976D /* LaunchScreen.storyboard */,
+				92FEA8E32BB5385F0089976D /* Info.plist */,
+			);
+			path = ShinyMoney;
+			sourceTree = "<group>";
+		};
+		92FEA8EB2BB5385F0089976D /* ShinyMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FEA8EC2BB5385F0089976D /* ShinyMoneyTests.swift */,
+			);
+			path = ShinyMoneyTests;
+			sourceTree = "<group>";
+		};
+		92FEA8F52BB5385F0089976D /* ShinyMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FEA8F62BB5385F0089976D /* ShinyMoneyUITests.swift */,
+				92FEA8F82BB5385F0089976D /* ShinyMoneyUITestsLaunchTests.swift */,
+			);
+			path = ShinyMoneyUITests;
+			sourceTree = "<group>";
+		};
+		A998FED6E29496A1ADD366B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22DC49D339DB05475E4297D8 /* Pods-ShinyMoney.debug.xcconfig */,
+				1E05691CC92D89C21FCC5F36 /* Pods-ShinyMoney.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FEA8D12BB5385C0089976D /* ShinyMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FEA8FC2BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoney" */;
+			buildPhases = (
+				723D150A7580FBE2E74820A9 /* [CP] Check Pods Manifest.lock */,
+				92FEA8CE2BB5385C0089976D /* Sources */,
+				92FEA8CF2BB5385C0089976D /* Frameworks */,
+				92FEA8D02BB5385C0089976D /* Resources */,
+				DBCAABBAE144042BC65523DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinyMoney;
+			productName = ShinyMoney;
+			productReference = 92FEA8D22BB5385C0089976D /* ShinyMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FEA8E72BB5385F0089976D /* ShinyMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FEA8FF2BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoneyTests" */;
+			buildPhases = (
+				92FEA8E42BB5385F0089976D /* Sources */,
+				92FEA8E52BB5385F0089976D /* Frameworks */,
+				92FEA8E62BB5385F0089976D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FEA8EA2BB5385F0089976D /* PBXTargetDependency */,
+			);
+			name = ShinyMoneyTests;
+			productName = ShinyMoneyTests;
+			productReference = 92FEA8E82BB5385F0089976D /* ShinyMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FEA8F12BB5385F0089976D /* ShinyMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FEA9022BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoneyUITests" */;
+			buildPhases = (
+				92FEA8EE2BB5385F0089976D /* Sources */,
+				92FEA8EF2BB5385F0089976D /* Frameworks */,
+				92FEA8F02BB5385F0089976D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FEA8F42BB5385F0089976D /* PBXTargetDependency */,
+			);
+			name = ShinyMoneyUITests;
+			productName = ShinyMoneyUITests;
+			productReference = 92FEA8F22BB5385F0089976D /* ShinyMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FEA8CA2BB5385C0089976D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					92FEA8D12BB5385C0089976D = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					92FEA8E72BB5385F0089976D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92FEA8D12BB5385C0089976D;
+					};
+					92FEA8F12BB5385F0089976D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92FEA8D12BB5385C0089976D;
+					};
+				};
+			};
+			buildConfigurationList = 92FEA8CD2BB5385C0089976D /* Build configuration list for PBXProject "ShinyMoney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FEA8C92BB5385C0089976D;
+			productRefGroup = 92FEA8D32BB5385C0089976D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FEA8D12BB5385C0089976D /* ShinyMoney */,
+				92FEA8E72BB5385F0089976D /* ShinyMoneyTests */,
+				92FEA8F12BB5385F0089976D /* ShinyMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FEA8D02BB5385C0089976D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EE08582BCBCA07007C93AE /* Phosphate.ttc in Resources */,
+				926B7B552C06ADA3007DBAB6 /* SM_LaunchViewController.xib in Resources */,
+				92FEA8E22BB5385F0089976D /* LaunchScreen.storyboard in Resources */,
+				920370D52BD0AB00001F839B /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				920D97432BFB1BA500462D90 /* SM_BillStyle01Cell.xib in Resources */,
+				9263B78D2BD660E100F52C98 /* SF-Pro-Display-Black.otf in Resources */,
+				92FEA8DF2BB5385F0089976D /* Assets.xcassets in Resources */,
+				920D974A2BFC6CB900462D90 /* SM_ProductCell.xib in Resources */,
+				92FEA8DD2BB5385C0089976D /* Main.storyboard in Resources */,
+				92297F7E2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.xib in Resources */,
+				920B43582BE77A0300A70C99 /* LuckyPesoChooseDateView.xib in Resources */,
+				92EE08532BCA6D51007C93AE /* SM_AccountCell.xib in Resources */,
+				92EE085A2BCBCCC3007C93AE /* Silom.ttf in Resources */,
+				92297F7A2BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8E62BB5385F0089976D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8F02BB5385F0089976D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		723D150A7580FBE2E74820A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinyMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCAABBAE144042BC65523DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinyMoney/Pods-ShinyMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinyMoney/Pods-ShinyMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinyMoney/Pods-ShinyMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FEA8CE2BB5385C0089976D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C59DCB2BE75F75002A5BC7 /* SMWebHandler.m in Sources */,
+				92297F7D2BDA2F250041B3C2 /* SM_BottomSelectInfoViewCell01.swift in Sources */,
+				92C59DCA2BE75F75002A5BC7 /* SMWebVC.m in Sources */,
+				920370CD2BCF58D3001F839B /* SM_ProcessStep01ViewController.swift in Sources */,
+				92FEA8DA2BB5385C0089976D /* ViewController.swift in Sources */,
+				929E5F072BD7ABE2003FA011 /* SMAppdelegate.swift in Sources */,
+				92297F842BDB4CA10041B3C2 /* SM_SelectIDItemView.swift in Sources */,
+				920D97422BFB1BA500462D90 /* SM_BillStyle01Cell.swift in Sources */,
+				922ACD282BC3DECC00C43FD9 /* SM_HomeVC.swift in Sources */,
+				92DCDEF52BF4381400B35301 /* SM_LoanProviderInfoViewController.swift in Sources */,
+				926B7B4C2BFDB7E3007DBAB6 /* SMOrderModel.swift in Sources */,
+				922ACD2C2BC3E36C00C43FD9 /* SM_AccountVC.swift in Sources */,
+				9263B7892BD63EA900F52C98 /* SM_ProcessContactFillView.swift in Sources */,
+				92394BCB2BC294E800C92A22 /* CALayer+Category.m in Sources */,
+				92297F992BDF47220041B3C2 /* SMCardInfoModel.swift in Sources */,
+				9263B78B2BD6540300F52C98 /* SM_CardUploadExampleView.swift in Sources */,
+				92297F902BDE234F0041B3C2 /* SMProductDetailModel.swift in Sources */,
+				92C59DC52BE75C27002A5BC7 /* SMOrderUrlModel.swift in Sources */,
+				92EE08632BCCD4CD007C93AE /* SMCustomActivityIndicatorView.swift in Sources */,
+				9263B7962BD7826100F52C98 /* SMUserModel.swift in Sources */,
+				92394BCD2BC2976000C92A22 /* SM_LoginEnterCodeView.swift in Sources */,
+				92297F972BDF39DF0041B3C2 /* SMRegAdvenceModel.swift in Sources */,
+				929E5F0C2BD8A34F003FA011 /* SM_DataUploadViewModel.swift in Sources */,
+				920370CA2BCF5703001F839B /* SM_VertifyNavView.swift in Sources */,
+				92297F802BDA46820041B3C2 /* SM_BindBankCardTipView.swift in Sources */,
+				92297F952BDF24AD0041B3C2 /* SMVertifyIdentifyManager.swift in Sources */,
+				92B755AC2BC241BE00C1C08C /* SM_LoginVC.swift in Sources */,
+				920B43602BE8B46000A70C99 /* Reachability.m in Sources */,
+				92297F882BDB8E9B0041B3C2 /* SMHomeInfoModel.swift in Sources */,
+				920B43532BE772B900A70C99 /* LuckyPesoChooseDateView.m in Sources */,
+				92B755B52BC245BB00C1C08C /* UIViewControllerExt.swift in Sources */,
+				920B435A2BE8B25200A70C99 /* SMHomeUploadDeviceInfoManager.swift in Sources */,
+				920D97452BFB2B2E00462D90 /* SM_BillChooseTypeListView.swift in Sources */,
+				9263B7942BD7581C00F52C98 /* SM_LoginViewModel.swift in Sources */,
+				92B755B92BC245BB00C1C08C /* UIColorExt.swift in Sources */,
+				92EE085E2BCCC75A007C93AE /* SMNetAPI.swift in Sources */,
+				92B755B62BC245BB00C1C08C /* StringExt.swift in Sources */,
+				92B755B72BC245BB00C1C08C /* UIViewExt.swift in Sources */,
+				920B43562BE7730200A70C99 /* NSDate+JKExtension.m in Sources */,
+				920370CF2BCFC214001F839B /* SM_ProcessStep02ViewController.swift in Sources */,
+				92B755A72BC23E2300C1C08C /* SM_NavigationViewController.swift in Sources */,
+				92C1DD092BE083C700612484 /* SMStep04Model.swift in Sources */,
+				92EE08562BCBC816007C93AE /* SM_VertifyProcessViewController.swift in Sources */,
+				92297F922BDE41020041B3C2 /* SMIDTypeModel.swift in Sources */,
+				929E5F122BD8F0DB003FA011 /* SMBottomSelectInfoView.swift in Sources */,
+				9263B7872BD5E57E00F52C98 /* SM_ProcessStep05ViewController.swift in Sources */,
+				926B7B4A2BFD92AD007DBAB6 /* SM_HomeLoanAgainViewController.swift in Sources */,
+				922ACD252BC3DE8600C43FD9 /* SM_Tabbar.swift in Sources */,
+				926B7B512BFF409E007DBAB6 /* CARefreshHeader.m in Sources */,
+				926B7B542C06ADA3007DBAB6 /* SM_LaunchViewController.swift in Sources */,
+				922ACD2A2BC3E32A00C43FD9 /* SM_ContainerVC.swift in Sources */,
+				92DCDEF32BEF0BFC00B35301 /* SM_AccountViewModel.swift in Sources */,
+				929E5F092BD7B456003FA011 /* SMEnvironmentModel.swift in Sources */,
+				922ACD2E2BC3E37D00C43FD9 /* SM_BillVC.swift in Sources */,
+				920B435D2BE8B3D700A70C99 /* SMDeviceInfoTool.m in Sources */,
+				92B755A92BC2404000C1C08C /* SM_Configure.swift in Sources */,
+				92B755B82BC245BB00C1C08C /* UIButtonExt.swift in Sources */,
+				92B755BD2BC2479900C1C08C /* SM_ShareFunction.swift in Sources */,
+				92297F8E2BDDF9550041B3C2 /* SMApplyDataModel.swift in Sources */,
+				920D97492BFC6CB900462D90 /* SM_ProductCell.swift in Sources */,
+				92297F792BDA2DA70041B3C2 /* SM_BottomSelectInfoViewCell.swift in Sources */,
+				929E5F102BD8E9AB003FA011 /* SMCityLocationModel.swift in Sources */,
+				929E5F0E2BD8AD26003FA011 /* SMGoogleUploadModel.swift in Sources */,
+				92EE08522BCA6D51007C93AE /* SM_AccountCell.swift in Sources */,
+				92DCDEF02BEF030F00B35301 /* SM_AccountManagementViewController.swift in Sources */,
+				92297F822BDB32740041B3C2 /* SM_BankCardSelectView.swift in Sources */,
+				92394BCA2BC294E800C92A22 /* CodeInputView.m in Sources */,
+				92297F862BDB8A920041B3C2 /* SM_HomeViewModel.swift in Sources */,
+				92EE08612BCCD25B007C93AE /* UIDeviceExt.swift in Sources */,
+				92DB3A2E2BD10F64002260B6 /* SM_ProcessFillView.swift in Sources */,
+				92394BC22BC273AB00C92A22 /* SMImageTextButton.swift in Sources */,
+				92FEA8D62BB5385C0089976D /* AppDelegate.swift in Sources */,
+				92C1DD072BDF89C500612484 /* SMStep02Model.swift in Sources */,
+				920370D32BCFC22D001F839B /* SM_ProcessStep04ViewController.swift in Sources */,
+				92297F8C2BDDF2270041B3C2 /* SMRouterUtils.swift in Sources */,
+				920370D12BCFC220001F839B /* SM_ProcessStep03ViewController.swift in Sources */,
+				92C59DBF2BE7265E002A5BC7 /* SMStep05Model.swift in Sources */,
+				92EE085F2BCCC75A007C93AE /* SMDataModel.swift in Sources */,
+				92C1DD052BDF833A00612484 /* SMNextStepManager.swift in Sources */,
+				92B755BA2BC245BB00C1C08C /* UITextFieldExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8E42BB5385F0089976D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FEA8ED2BB5385F0089976D /* ShinyMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FEA8EE2BB5385F0089976D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FEA8F72BB5385F0089976D /* ShinyMoneyUITests.swift in Sources */,
+				92FEA8F92BB5385F0089976D /* ShinyMoneyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FEA8EA2BB5385F0089976D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FEA8D12BB5385C0089976D /* ShinyMoney */;
+			targetProxy = 92FEA8E92BB5385F0089976D /* PBXContainerItemProxy */;
+		};
+		92FEA8F42BB5385F0089976D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FEA8D12BB5385C0089976D /* ShinyMoney */;
+			targetProxy = 92FEA8F32BB5385F0089976D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92FEA8DB2BB5385C0089976D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FEA8DC2BB5385C0089976D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FEA8E02BB5385F0089976D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FEA8E12BB5385F0089976D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FEA8FA2BB5385F0089976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92FEA8FB2BB5385F0089976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FEA8FD2BB5385F0089976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DC49D339DB05475E4297D8 /* Pods-ShinyMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShinyMoney/ShinyMoney.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2F6XZMZ52M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShinyMoney/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShinyMoney/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To verify the authenticity of your identity document and prevent fraud, we require access to your camera. Please permit us to securely capture an electronic version of your identity document using the camera. We prioritize the protection of your personal information and will only use it for necessary identity verification purposes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To provide precise loan services and minimize the risk of fraud, access to your location data is necessary. We will handle your information with utmost care, utilizing it solely to improve our services and prevent fraudulent activities. Feel free to reach out with any queries.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For accurate loan services and reduced fraud risk, we seek access to your location data. Your information will be treated with utmost care, employed exclusively for service enhancement and fraud prevention. Please contact us if you have any questions.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To authenticate your identity document and prevent fraud, we need permission to access your photo library. Kindly grant us access to your album to securely obtain an electronic version of your identity document. Your personal information will be safeguarded and utilized solely for essential identity verification purposes.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To enhance our service and safeguard against fraudulent activities, we require your Advertising ID. Your privacy is our priority, and we are committed to adhering to all applicable laws and regulations. The gathered Advertising ID will be exclusively utilized for service enhancement.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuanyong.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = zhuanyong_test;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinyMoney/Views/LoginCodeView/ShinyMoney-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92FEA8FE2BB5385F0089976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E05691CC92D89C21FCC5F36 /* Pods-ShinyMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShinyMoney/ShinyMoney.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2F6XZMZ52M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShinyMoney/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShinyMoney/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To verify the authenticity of your identity document and prevent fraud, we require access to your camera. Please permit us to securely capture an electronic version of your identity document using the camera. We prioritize the protection of your personal information and will only use it for necessary identity verification purposes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To provide precise loan services and minimize the risk of fraud, access to your location data is necessary. We will handle your information with utmost care, utilizing it solely to improve our services and prevent fraudulent activities. Feel free to reach out with any queries.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For accurate loan services and reduced fraud risk, we seek access to your location data. Your information will be treated with utmost care, employed exclusively for service enhancement and fraud prevention. Please contact us if you have any questions.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To authenticate your identity document and prevent fraud, we need permission to access your photo library. Kindly grant us access to your album to securely obtain an electronic version of your identity document. Your personal information will be safeguarded and utilized solely for essential identity verification purposes.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To enhance our service and safeguard against fraudulent activities, we require your Advertising ID. Your privacy is our priority, and we are committed to adhering to all applicable laws and regulations. The gathered Advertising ID will be exclusively utilized for service enhancement.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuanyong.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = zhuanyong_test;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinyMoney/Views/LoginCodeView/ShinyMoney-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		92FEA9002BB5385F0089976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y92476QC5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.ShinyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinyMoney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShinyMoney";
+			};
+			name = Debug;
+		};
+		92FEA9012BB5385F0089976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y92476QC5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.ShinyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinyMoney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShinyMoney";
+			};
+			name = Release;
+		};
+		92FEA9032BB5385F0089976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y92476QC5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.ShinyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShinyMoney;
+			};
+			name = Debug;
+		};
+		92FEA9042BB5385F0089976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y92476QC5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.ShinyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShinyMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FEA8CD2BB5385C0089976D /* Build configuration list for PBXProject "ShinyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FEA8FA2BB5385F0089976D /* Debug */,
+				92FEA8FB2BB5385F0089976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FEA8FC2BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FEA8FD2BB5385F0089976D /* Debug */,
+				92FEA8FE2BB5385F0089976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FEA8FF2BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FEA9002BB5385F0089976D /* Debug */,
+				92FEA9012BB5385F0089976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FEA9022BB5385F0089976D /* Build configuration list for PBXNativeTarget "ShinyMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FEA9032BB5385F0089976D /* Debug */,
+				92FEA9042BB5385F0089976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FEA8CA2BB5385C0089976D /* Project object */;
+}

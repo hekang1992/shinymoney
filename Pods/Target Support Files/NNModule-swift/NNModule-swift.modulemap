@@ -1,0 +1,6 @@
+framework module NNModule_swift {
+  umbrella header "NNModule-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ShinyMoney {
+  umbrella header "Pods-ShinyMoney-umbrella.h"
+
+  export *
+  module * { export * }
+}

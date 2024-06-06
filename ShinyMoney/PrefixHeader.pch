@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  ShinyMoney
+//
+//  Created by 李青 on 2024/4/7.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#endif /* PrefixHeader_pch */

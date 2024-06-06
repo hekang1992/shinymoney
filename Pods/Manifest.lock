@@ -1,0 +1,99 @@
+PODS:
+  - AAILiveness (2.0.6):
+    - AAINetwork
+  - AAINetwork (1.0.0)
+  - Alamofire (5.8.1)
+  - AppsFlyerFramework (6.13.0):
+    - AppsFlyerFramework/Main (= 6.13.0)
+  - AppsFlyerFramework/Main (6.13.0)
+  - Hue (5.0.0)
+  - IQKeyboardManagerSwift (6.5.16)
+  - Kingfisher (7.11.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.6)
+  - NNModule-swift/URLRouter (1.0.6)
+  - ReactiveObjC (3.1.1)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - SwiftyJSON (5.0.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - "AAILiveness (from `{:http=>\"https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.6/iOS-Liveness-SDK-V2.0.6.tar.bz2\", :type=>:tbz}`)"
+  - "AAINetwork (from `{:http=>\"https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.0.tar.bz2\", :type=>:tbz}`)"
+  - Alamofire
+  - AppsFlyerFramework
+  - Hue
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - NNModule-swift/URLRouter
+  - ReactiveObjC
+  - SAMKeychain
+  - SDCycleScrollView
+  - SwiftyJSON
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AppsFlyerFramework
+    - Hue
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - NNModule-swift
+    - ReactiveObjC
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - SwiftyJSON
+    - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  AAILiveness:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.6/iOS-Liveness-SDK-V2.0.6.tar.bz2
+    :type: :tbz
+  AAINetwork:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.0.tar.bz2
+    :type: :tbz
+
+CHECKOUT OPTIONS:
+  AAILiveness:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.6/iOS-Liveness-SDK-V2.0.6.tar.bz2
+    :type: :tbz
+  AAINetwork:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.0.tar.bz2
+    :type: :tbz
+
+SPEC CHECKSUMS:
+  AAILiveness: d7e5184eadd4418a30df39ff36447bda56c3f6c0
+  AAINetwork: d6020f256b8848dc4959dfc90244ad39035938de
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AppsFlyerFramework: cb54b4f27d2da2b3e2b286800476ce3b2007c75f
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  NNModule-swift: d8d8dcc1302ed93ca262dfe5d44e8c2eca4a9b56
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: c6fd5760f8e02b5d68e7c3c34ecf3f66530b6c2d
+
+COCOAPODS: 1.15.2
